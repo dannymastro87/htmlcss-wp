@@ -29,11 +29,12 @@ h1 {
 h2 {
   font-size: 18px;
   margin: 20px 0;
+  font-weight: 300;
 }
 
 .logo {
-  width: 160px;
-  border-right: 1px #929292 solid;
+  width: 180px;
+  border-right: 0.1px #929292 solid;
 }
 
 .logo img{
@@ -75,6 +76,13 @@ a:hover {
   position: relative;
 }
 
+.banner-content {
+  z-index: 1;
+  padding-left: 80px;
+  width: 70%;
+  color: #ffffff;
+}
+
 .banner::before {
   content: '';
   position: absolute;
@@ -82,25 +90,17 @@ a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.3);
   border-radius: 25px;
 }
 
 .banner .slogan {
   font-size: 36px;
-  color: #ffffff;
   padding-top: 350px;
-  padding-left: 80px;
-  width: 70%;
-  z-index: 1;
 }
 
 .banner .slogan-content {
   font-size: 18px;
-  color: #ffffff;
-  padding-left: 80px;
-  width: 70%;
-  z-index: 1;
 }
 
 .title {
@@ -117,17 +117,6 @@ a:hover {
   position: relative;
 }
 
-.image-center::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.2);
-  border-radius: 25px;
-}
-
 .image-left {
   background-image: url(/assets/img/img-1.jpg);
   background-size: cover;
@@ -136,17 +125,6 @@ a:hover {
   height: 200px;
   border-radius: 25px;
   position: relative;
-}
-
-.image-left::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.2);
-  border-radius: 25px;
 }
 
 .image-right {
@@ -159,7 +137,7 @@ a:hover {
   position: relative;
 }
 
-.image-right::before {
+.image-left::before, .image-right::before, .image-center::before {
   content: '';
   position: absolute;
   top: 0;
