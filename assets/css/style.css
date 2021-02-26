@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #929292;
+}
+
+h1 {
+  color: 36px;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+h3 {
+  padding: 10px 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.logo {
+  width: 160px;
+  border-right: 1px grey solid;
+}
+
+.logo img{
+  width: 150px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 50px 0;
+}
+
+nav li {
+  display: inline;
+  padding: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+.banner {
+  background-image: url(/assets/img/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  border-radius: 25px;
+}
+
+.banner .slogan {
+  font-size: 36px;
+  color: #ffffff;
+  padding-top: 350px;
+  padding-left: 80px;
+  width: 70%;
+}
+
+.banner .slogan-content {
+  font-size: 18px;
+  color: #ffffff;
+  padding-left: 80px;
+  width: 70%;
+}
+
+
+.title {
+  margin: 60px 0;
+}
+
+.title h1 {
+  font-size: 36px;
+}
+
+.image-center {
+  background-image: url(/assets/img/banner-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  border-radius: 25px;
+}
+
+.image-left {
+  background-image: url(/assets/img/img-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  border-radius: 25px;
+}
+
+.image-right {
+  background-image: url(/assets/img/img-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  border-radius: 25px;
+}
+
+.col-left {
+  float: left;
+  width: 20%;
+}
+.col-center {
+  float: left;
+  width: 56%;
+  margin: 0 2%;
+}
+
+.col-right {
+  float: left;
+  width: 20%;
+}
+
+footer p {
+  text-align: center;
+  padding: 25px;
+}
+
+footer p:after {
+  content: ' \2665';
+  color: red;
+}
