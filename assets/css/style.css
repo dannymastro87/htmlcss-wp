@@ -75,10 +75,10 @@ a:hover {
   height: 600px;
   border-radius: 25px;
   position: relative;
+  z-index: -1;
 }
 
 .banner-content {
-  z-index: 1;
   padding-left: 80px;
   width: 70%;
   color: #ffffff;
@@ -93,6 +93,7 @@ a:hover {
   height: 100%;
   background-color: rgba(0,0,0,0.3);
   border-radius: 25px;
+  z-index: -1;
 }
 
 .banner .slogan {
@@ -129,7 +130,7 @@ a:hover {
 }
 
 .image-right {
-  background-image: url(/assets/img/img-2.jpg);
+  background-image: url(/assets/img/img-3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
