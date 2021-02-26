@@ -15,26 +15,25 @@ body {
   color: #929292;
 }
 
-h1 {
-  color: 36px;
-}
-
-h2 {
-  font-size: 14px;
-}
-
-h3 {
-  padding: 10px 0;
-}
-
 .container {
   width: 80%;
   margin: auto;
 }
 
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000000;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
 .logo {
   width: 160px;
-  border-right: 1px grey solid;
+  border-right: 1px #929292 solid;
 }
 
 .logo img{
@@ -88,7 +87,6 @@ a:hover {
   padding-left: 80px;
   width: 70%;
 }
-
 
 .title {
   margin: 60px 0;
