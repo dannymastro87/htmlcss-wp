@@ -12,6 +12,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   color: #929292;
 }
 
@@ -29,7 +30,7 @@ h1 {
 h2 {
   font-size: 18px;
   margin: 20px 0;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .logo {
